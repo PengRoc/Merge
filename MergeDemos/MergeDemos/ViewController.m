@@ -20,6 +20,8 @@
     NSLog(@"demos to pull and push");
        NSLog(@"demos to pull and push");
     NSLog(@"temo");
+    NSLog(@"demo");
+    NSLog(@"demos");
 }
 -(void)testMethod
 {

@@ -15,6 +15,13 @@
 		86C166BF1E8259B3002B2FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C166BD1E8259B3002B2FC3 /* LaunchScreen.storyboard */; };
 		86C166CA1E8259B3002B2FC3 /* MergeDemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C166C91E8259B3002B2FC3 /* MergeDemosTests.m */; };
 		86C166D51E8259B3002B2FC3 /* MergeDemosUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C166D41E8259B3002B2FC3 /* MergeDemosUITests.m */; };
+		E0393D6B1E8259ED00275013 /* newView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0393D6A1E8259ED00275013 /* newView.m */; };
+		E0393D6E1E825AC900275013 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0393D6D1E825AC900275013 /* testView.m */; };
+		E0393D721E825AEE00275013 /* otherView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0393D711E825AEE00275013 /* otherView.m */; };
+		E0393D751E825E3700275013 /* datamodel.m in Sources */ = {isa = PBXBuildFile; fileRef = E0393D741E825E3700275013 /* datamodel.m */; };
+		E0393D781E82604000275013 /* OperationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0393D771E82604000275013 /* OperationView.m */; };
+		E0393D7B1E8264B500275013 /* Ddata.m in Sources */ = {isa = PBXBuildFile; fileRef = E0393D7A1E8264B500275013 /* Ddata.m */; };
+		E0AEC79D1E82DF8C00290874 /* newdatamodels.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AEC79C1E82DF8C00290874 /* newdatamodels.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		86C166D01E8259B3002B2FC3 /* MergeDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C166D41E8259B3002B2FC3 /* MergeDemosUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeDemosUITests.m; sourceTree = "<group>"; };
 		86C166D61E8259B3002B2FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0393D691E8259ED00275013 /* newView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newView.h; sourceTree = "<group>"; };
+		E0393D6A1E8259ED00275013 /* newView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newView.m; sourceTree = "<group>"; };
+		E0393D6C1E825AC900275013 /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		E0393D6D1E825AC900275013 /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
+		E0393D701E825AEE00275013 /* otherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherView.h; sourceTree = "<group>"; };
+		E0393D711E825AEE00275013 /* otherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherView.m; sourceTree = "<group>"; };
+		E0393D731E825E3700275013 /* datamodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = datamodel.h; sourceTree = "<group>"; };
+		E0393D741E825E3700275013 /* datamodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = datamodel.m; sourceTree = "<group>"; };
+		E0393D761E82604000275013 /* OperationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationView.h; sourceTree = "<group>"; };
+		E0393D771E82604000275013 /* OperationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationView.m; sourceTree = "<group>"; };
+		E0393D791E8264B500275013 /* Ddata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ddata.h; sourceTree = "<group>"; };
+		E0393D7A1E8264B500275013 /* Ddata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ddata.m; sourceTree = "<group>"; };
+		E0AEC79B1E82DF8C00290874 /* newdatamodels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newdatamodels.h; sourceTree = "<group>"; };
+		E0AEC79C1E82DF8C00290874 /* newdatamodels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newdatamodels.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,15 @@
 		86C166AE1E8259B3002B2FC3 /* MergeDemos */ = {
 			isa = PBXGroup;
 			children = (
+				E0393D6F1E825AE300275013 /* test */,
+				E0393D6C1E825AC900275013 /* testView.h */,
+				E0393D6D1E825AC900275013 /* testView.m */,
 				86C166B21E8259B3002B2FC3 /* AppDelegate.h */,
 				86C166B31E8259B3002B2FC3 /* AppDelegate.m */,
 				86C166B51E8259B3002B2FC3 /* ViewController.h */,
 				86C166B61E8259B3002B2FC3 /* ViewController.m */,
+				E0393D691E8259ED00275013 /* newView.h */,
+				E0393D6A1E8259ED00275013 /* newView.m */,
 				86C166B81E8259B3002B2FC3 /* Main.storyboard */,
 				86C166BB1E8259B3002B2FC3 /* Assets.xcassets */,
 				86C166BD1E8259B3002B2FC3 /* LaunchScreen.storyboard */,
@@ -138,6 +164,23 @@
 				86C166D61E8259B3002B2FC3 /* Info.plist */,
 			);
 			path = MergeDemosUITests;
+			sourceTree = "<group>";
+		};
+		E0393D6F1E825AE300275013 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				E0393D761E82604000275013 /* OperationView.h */,
+				E0393D771E82604000275013 /* OperationView.m */,
+				E0393D701E825AEE00275013 /* otherView.h */,
+				E0393D711E825AEE00275013 /* otherView.m */,
+				E0393D731E825E3700275013 /* datamodel.h */,
+				E0393D741E825E3700275013 /* datamodel.m */,
+				E0393D791E8264B500275013 /* Ddata.h */,
+				E0393D7A1E8264B500275013 /* Ddata.m */,
+				E0AEC79B1E82DF8C00290874 /* newdatamodels.h */,
+				E0AEC79C1E82DF8C00290874 /* newdatamodels.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,8 +320,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				86C166B71E8259B3002B2FC3 /* ViewController.m in Sources */,
+				E0393D721E825AEE00275013 /* otherView.m in Sources */,
+				E0393D6B1E8259ED00275013 /* newView.m in Sources */,
+				E0393D7B1E8264B500275013 /* Ddata.m in Sources */,
+				E0AEC79D1E82DF8C00290874 /* newdatamodels.m in Sources */,
 				86C166B41E8259B3002B2FC3 /* AppDelegate.m in Sources */,
+				E0393D6E1E825AC900275013 /* testView.m in Sources */,
 				86C166B11E8259B3002B2FC3 /* main.m in Sources */,
+				E0393D781E82604000275013 /* OperationView.m in Sources */,
+				E0393D751E825E3700275013 /* datamodel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +566,7 @@
 				86C166DB1E8259B3002B2FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C166DC1E8259B3002B2FC3 /* Build configuration list for PBXNativeTarget "MergeDemosTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +575,7 @@
 				86C166DE1E8259B3002B2FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C166DF1E8259B3002B2FC3 /* Build configuration list for PBXNativeTarget "MergeDemosUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +584,7 @@
 				86C166E11E8259B3002B2FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,6 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"demos to pull and push");
        NSLog(@"demos to pull and push");
+    NSLog(@"temo");
 }
 -(void)testMethod
 {

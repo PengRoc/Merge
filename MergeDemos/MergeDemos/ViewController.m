@@ -21,7 +21,10 @@
        NSLog(@"demos to pull and push");
 }
 
-
+-(void)viewMethod
+{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

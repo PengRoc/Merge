@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface testView : UIView
-
+@property(strong,nonatomic)NSString *string;
 @end

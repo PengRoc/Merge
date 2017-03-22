@@ -15,6 +15,7 @@
 		86C1667D1E82566C002B2FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C1667B1E82566C002B2FC3 /* LaunchScreen.storyboard */; };
 		86C166881E82566C002B2FC3 /* MergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C166871E82566C002B2FC3 /* MergeTests.m */; };
 		86C166931E82566D002B2FC3 /* MergeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C166921E82566D002B2FC3 /* MergeUITests.m */; };
+		86C166A21E8256E2002B2FC3 /* testView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C166A11E8256E2002B2FC3 /* testView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		86C1668E1E82566D002B2FC3 /* MergeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C166921E82566D002B2FC3 /* MergeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeUITests.m; sourceTree = "<group>"; };
 		86C166941E82566D002B2FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C166A01E8256E2002B2FC3 /* testView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testView.h; sourceTree = "<group>"; };
+		86C166A11E8256E2002B2FC3 /* testView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				86C166731E82566C002B2FC3 /* ViewController.h */,
 				86C166741E82566C002B2FC3 /* ViewController.m */,
 				86C166761E82566C002B2FC3 /* Main.storyboard */,
+				86C166A01E8256E2002B2FC3 /* testView.h */,
+				86C166A11E8256E2002B2FC3 /* testView.m */,
 				86C166791E82566C002B2FC3 /* Assets.xcassets */,
 				86C1667B1E82566C002B2FC3 /* LaunchScreen.storyboard */,
 				86C1667E1E82566C002B2FC3 /* Info.plist */,
@@ -276,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C166A21E8256E2002B2FC3 /* testView.m in Sources */,
 				86C166751E82566C002B2FC3 /* ViewController.m in Sources */,
 				86C166721E82566C002B2FC3 /* AppDelegate.m in Sources */,
 				86C1666F1E82566C002B2FC3 /* main.m in Sources */,
@@ -516,6 +522,7 @@
 				86C166991E82566D002B2FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C1669A1E82566D002B2FC3 /* Build configuration list for PBXNativeTarget "MergeTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				86C1669C1E82566D002B2FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86C1669D1E82566D002B2FC3 /* Build configuration list for PBXNativeTarget "MergeUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				86C1669F1E82566D002B2FC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

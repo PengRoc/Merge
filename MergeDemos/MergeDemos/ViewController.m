@@ -22,6 +22,7 @@
     NSLog(@"temo");
     NSLog(@"demo");
     NSLog(@"demos");
+    NSLog(@"test");
 }
 -(void)testMethod
 {

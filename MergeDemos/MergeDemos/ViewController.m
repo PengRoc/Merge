@@ -20,7 +20,10 @@
     NSLog(@"demos to pull and push");
        NSLog(@"demos to pull and push");
 }
-
+-(void)testMethod
+{
+    
+}
 
 -(void)viewMethod
 {

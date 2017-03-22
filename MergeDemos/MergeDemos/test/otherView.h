@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface otherView : UIView
-
+@property(strong,nonatomic)NSString *titleString;
 @end

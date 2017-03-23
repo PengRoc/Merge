@@ -23,6 +23,7 @@
     NSLog(@"demo");
     NSLog(@"demos");
     NSLog(@"test");
+    NSLog(@"master");
 }
 -(void)testMethod
 {
